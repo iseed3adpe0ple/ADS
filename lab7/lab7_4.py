@@ -23,7 +23,7 @@ for i in range(n):
     avg = s / c
     arr.append([last, first, avg])
 
-arr.sort(key=lambda x:(x[2], x[0], x[1]))  # теперь по возрастанию GPA
+arr.sort(key=lambda x:(x[2], x[0], x[1])) 
 
 for p in arr:
     print(p[0], p[1], f"{p[2]:.3f}")
